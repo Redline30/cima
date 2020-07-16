@@ -1,0 +1,86 @@
+/* ---- VARIABLES ---- */
+
+:root {
+    /* ---- Main Color ---- */
+    --main-color: #5e5e5e;
+    /* ---- Secondary color ---- */
+    --second-color: #000;
+    /* ---- Hover Color ---- */
+    --hover-color: #0050ca;
+    /* ---- Normal ---- */
+    --main-measure: 14px;
+    /* ---- Subtítulos ---- */
+    --sub-title: 16px;
+    /* ---- Títulos ---- */
+    --main-title: 24px;
+}
+
+
+/* ---- GENERAL ---- */
+
+
+/*"src/assets/css/animations.css",*/
+
+html {
+    background-color: #fff;
+}
+
+p {
+    color: var(--main-color);
+    font-size: var(--main-measure);
+}
+
+h1,
+h2,
+h3 {
+    font-size: var(--sub-title);
+    color: var(--second-color);
+}
+
+h4 {
+    font-size: var(--sub-title);
+    color: var(--main-color);
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+
+/* ---- SIMPLE BAR (CUSTOM) ---- */
+
+.simplebar-content-wrapper {
+    overflow: auto;
+}
+
+.simplebar-wrapper {
+    height: 100vh;
+}
+
+.simplebar-scrollbar::before {
+    background-color: var(--main-color);
+}
+
+
+/* ---- INPUT GENERAL ---- */
+
+input {
+    border: 1px solid #e6e6e6 !important;
+    width: 100% !important;
+    text-align: center;
+    height: 30px !important;
+}
+
+input:focus {
+    box-shadow: 0 1px 0 0 #4c4c4c !important;
+}
+
+.select-wraper ul {
+    margin-top: 3px !important;
+}
